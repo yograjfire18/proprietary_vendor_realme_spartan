@@ -2149,10 +2149,10 @@
 },
 
 {
-  "VendorTag": "com.oplus.aps.iso.jpegtoraw",
+  "VendorTag": "com.oplus.aps.debug.caliexif.enable",
   "Type": "Int32",
   "Count": "1",
-  "Value": "1"
+  "Value": "0"
 },
 
 {
@@ -2160,5 +2160,20 @@
   "Type": "Int32",
   "Count": "1",
   "Value": "1"
+},
+
+{
+  "VendorTag": "com.oplus.aps.professional.exif.iso",
+  "Type": "Int32",
+  "Count": "1",
+  "Value": "1"
+},
+
+{
+  "VendorTag": "com.oplus.aps.params.turboraw.shutterwait",
+  "Type": "Int32",
+  "Count": "1",
+  "Value": "1000"
 }
+
 ]
