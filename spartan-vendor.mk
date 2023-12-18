@@ -1125,6 +1125,15 @@ PRODUCT_COPY_FILES += \
     vendor/realme/spartan/proprietary/vendor/etc/ltm_config_samsung_ams662zs01_dsc_cmd_21623.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_samsung_ams662zs01_dsc_cmd_21623.xml \
     vendor/realme/spartan/proprietary/vendor/etc/ltm_config_samsung_ams662zs01_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_samsung_ams662zs01_dsc_cmd_mode_panel.xml \
     vendor/realme/spartan/proprietary/vendor/etc/ltm_config_samsung_ams662zs01_dvt_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_samsung_ams662zs01_dvt_dsc_cmd_mode_panel.xml \
+    vendor/realme/spartan/proprietary/vendor/etc/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
+    vendor/realme/spartan/proprietary/vendor/etc/media_codecs_kona.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_kona.xml \
+    vendor/realme/spartan/proprietary/vendor/etc/media_codecs_kona_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_kona_vendor.xml \
+    vendor/realme/spartan/proprietary/vendor/etc/media_codecs_performance_kona.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_kona.xml \
+    vendor/realme/spartan/proprietary/vendor/etc/media_codecs_performance_kona_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_kona_vendor.xml \
+    vendor/realme/spartan/proprietary/vendor/etc/media_codecs_vendor_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_vendor_audio.xml \
+    vendor/realme/spartan/proprietary/vendor/etc/media_profiles.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles.xml \
+    vendor/realme/spartan/proprietary/vendor/etc/media_profiles_kona.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_kona.xml \
+    vendor/realme/spartan/proprietary/vendor/etc/media_profiles_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_vendor.xml \
     vendor/realme/spartan/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
     vendor/realme/spartan/proprietary/vendor/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
     vendor/realme/spartan/proprietary/vendor/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
