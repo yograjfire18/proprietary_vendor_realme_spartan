@@ -603,7 +603,14 @@ PRODUCT_COPY_FILES += \
     vendor/realme/spartan/proprietary/odm/firmware/tp/21623/FW_FT3658U_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21623/FW_FT3658U_SAMSUNG_FAE.img \
     vendor/realme/spartan/proprietary/odm/firmware/tp/21623/LIMIT_FT3658U_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21623/LIMIT_FT3658U_SAMSUNG.img \
     vendor/realme/spartan/proprietary/odm/lib/libDeVIS.so:$(TARGET_COPY_OUT_ODM)/lib/libDeVIS.so \
+    vendor/realme/spartan/proprietary/odm/lib/libaiboost.so:$(TARGET_COPY_OUT_ODM)/lib/libaiboost.so \
+    vendor/realme/spartan/proprietary/odm/lib/libaiboost_hexagon.so:$(TARGET_COPY_OUT_ODM)/lib/libaiboost_hexagon.so \
+    vendor/realme/spartan/proprietary/odm/lib/libaiboost_nnlib_sr.so:$(TARGET_COPY_OUT_ODM)/lib/libaiboost_nnlib_sr.so \
+    vendor/realme/spartan/proprietary/odm/lib/libaiboost_sr.so:$(TARGET_COPY_OUT_ODM)/lib/libaiboost_sr.so \
+    vendor/realme/spartan/proprietary/odm/lib/libaiboost_ubwc.so:$(TARGET_COPY_OUT_ODM)/lib/libaiboost_ubwc.so \
     vendor/realme/spartan/proprietary/odm/lib/libc++_shared.so:$(TARGET_COPY_OUT_ODM)/lib/libc++_shared.so \
+    vendor/realme/spartan/proprietary/odm/lib/libosie_process.so:$(TARGET_COPY_OUT_ODM)/lib/libosie_process.so \
+    vendor/realme/spartan/proprietary/odm/lib/libosie_stub.so:$(TARGET_COPY_OUT_ODM)/lib/libosie_stub.so \
     vendor/realme/spartan/proprietary/vendor/lib/libsn100u_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsn100u_fw.so \
     vendor/realme/spartan/proprietary/odm/lib/rfsa/adsp/hta_lib/libhta_dsp_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/hta_lib/libhta_dsp_skel.so \
     vendor/realme/spartan/proprietary/odm/lib/rfsa/adsp/libaiboost_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libaiboost_skel.so \
