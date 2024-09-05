@@ -2177,6 +2177,13 @@
 },
 
 {
+  "VendorTag": "com.oplus.aps.two.significant.figures",
+  "Type": "Int32",
+  "Count": "1",
+  "Value": "1"
+},
+
+{
   "VendorTag": "com.oplus.aps.params.turboraw.shutterwait",
   "Type": "Int32",
   "Count": "1",

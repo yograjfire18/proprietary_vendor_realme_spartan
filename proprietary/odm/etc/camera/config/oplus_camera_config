@@ -1334,6 +1334,13 @@
   "Type": "Byte",
   "Count": "1",
   "Value": "0"
+},
+
+{
+  "VendorTag": "com.oplus.jpeg.quality.value",
+  "Type": "Int32",
+  "Count": "1",
+  "Value": "95"
 }
 ]
 
