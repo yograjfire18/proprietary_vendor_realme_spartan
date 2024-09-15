@@ -1474,7 +1474,6 @@ PRODUCT_PACKAGES += \
     PowerOffAlarm \
     HotwordEnrollmentOKGoogleHEXAGON \
     ImsRcsService \
-    QtiTelephony \
     QtiTelephonyService \
     DaxUI \
     WfdService \
@@ -1486,6 +1485,7 @@ PRODUCT_PACKAGES += \
     com.android.hotwordenrollment.common.util \
     com.qti.dpmframework \
     dpmapi \
+    oplus-ims-ext \
     qcrilhook \
     vendor.qti.hardware.alarm-V1.0-java \
     vendor.qti.ims.factory-V2.0-java \
@@ -1497,3 +1497,7 @@ PRODUCT_PACKAGES += \
     manifest_android.hardware.drm@1.3-service.widevine \
     manifest_oplusSensor \
     manifest_oplus_fingerprint
+
+PRODUCT_PACKAGES += \
+    libimscamera_jni_libimscamera_jni_symlink64 \
+    libimsmedia_jni_libimsmedia_jni_symlink64
