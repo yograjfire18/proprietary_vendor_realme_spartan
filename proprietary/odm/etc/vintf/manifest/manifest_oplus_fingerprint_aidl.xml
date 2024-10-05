@@ -14,19 +14,17 @@
  *************************************************************/
 -->
 <manifest version="1.0" type="device">
-    <hal override="true" format="hidl">
+    <hal override="true" format="aidl">
         <name>android.hardware.biometrics.fingerprint</name>
         <transport>hwbinder</transport>
-        <version>2.3</version>
         <interface>
             <name>IBiometricsFingerprint</name>
             <instance>default</instance>
         </interface>
     </hal>
-    <hal format="hidl">
+    <hal format="aidl">
         <name>vendor.oplus.hardware.biometrics.fingerprint</name>
         <transport>hwbinder</transport>
-        <version>2.1</version>
         <interface>
             <name>IBiometricsFingerprint</name>
             <instance>default</instance>
