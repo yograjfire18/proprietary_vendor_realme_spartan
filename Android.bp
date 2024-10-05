@@ -52,9 +52,6 @@ android_app_import {
 	owner: "realme",
 	apk: "proprietary/vendor/app/CACertService/CACertService.apk",
 	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
 	soc_specific: true,
 }
 
@@ -64,9 +61,6 @@ android_app_import {
 	apk: "proprietary/vendor/app/CneApp/CneApp.apk",
 	required: ["CneApp.libvndfwk_detect_jni.qti_symlink"],
 	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
 	soc_specific: true,
 }
 
@@ -75,9 +69,6 @@ android_app_import {
 	owner: "realme",
 	apk: "proprietary/vendor/app/IWlanService/IWlanService.apk",
 	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
 	soc_specific: true,
 }
 
@@ -86,9 +77,6 @@ android_app_import {
 	owner: "realme",
 	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
 	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
 	soc_specific: true,
 }
 
@@ -97,9 +85,6 @@ android_app_import {
 	owner: "realme",
 	apk: "proprietary/product/app/PowerOffAlarm/PowerOffAlarm.apk",
 	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
 	product_specific: true,
 }
 
@@ -108,9 +93,6 @@ android_app_import {
 	owner: "realme",
 	apk: "proprietary/product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk",
 	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
 	privileged: true,
 	product_specific: true,
 }
@@ -120,9 +102,6 @@ android_app_import {
 	owner: "realme",
 	apk: "proprietary/system_ext/app/ImsRcsService/ImsRcsService.apk",
 	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
 	system_ext_specific: true,
 }
 
@@ -131,9 +110,6 @@ android_app_import {
 	owner: "realme",
 	apk: "proprietary/system_ext/app/QtiTelephonyService/QtiTelephonyService.apk",
 	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
 	system_ext_specific: true,
 }
 
@@ -142,9 +118,6 @@ android_app_import {
 	owner: "realme",
 	apk: "proprietary/system_ext/priv-app/DaxUI/DaxUI.apk",
 	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
 	privileged: true,
 	system_ext_specific: true,
 }
@@ -154,9 +127,6 @@ android_app_import {
 	owner: "realme",
 	apk: "proprietary/system_ext/priv-app/WfdService/WfdService.apk",
 	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
 	privileged: true,
 	system_ext_specific: true,
 }
@@ -166,9 +136,6 @@ android_app_import {
 	owner: "realme",
 	apk: "proprietary/system_ext/priv-app/daxService/daxService.apk",
 	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
 	privileged: true,
 	system_ext_specific: true,
 }
@@ -178,9 +145,6 @@ android_app_import {
 	owner: "realme",
 	apk: "proprietary/system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk",
 	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
 	privileged: true,
 	system_ext_specific: true,
 }
@@ -190,9 +154,6 @@ android_app_import {
 	owner: "realme",
 	apk: "proprietary/system_ext/priv-app/ims/ims.apk",
 	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
 	privileged: true,
 	system_ext_specific: true,
 }
@@ -202,9 +163,6 @@ android_app_import {
 	owner: "realme",
 	apk: "proprietary/system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
 	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
 	privileged: true,
 	system_ext_specific: true,
 }
@@ -265,7 +223,7 @@ dex_import {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.gnss@2.1-service-qti.xml",
+	name: "android.hardware.gnss@2.1-service-qti",
 	owner: "realme",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml",
 	filename_from_src: true,
@@ -274,7 +232,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.neuralnetworks@1.3-service-qti-hta.xml",
+	name: "android.hardware.neuralnetworks@1.3-service-qti-hta",
 	owner: "realme",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti-hta.xml",
 	filename_from_src: true,
@@ -283,7 +241,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.neuralnetworks@1.3-service-qti.xml",
+	name: "android.hardware.neuralnetworks@1.3-service-qti",
 	owner: "realme",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti.xml",
 	filename_from_src: true,
@@ -292,7 +250,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_oplus_osiesr.xml",
+	name: "manifest_oplus_osiesr",
 	owner: "realme",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_oplus_osiesr.xml",
 	filename_from_src: true,
@@ -301,7 +259,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.qti.gnss@4.0-service.xml",
+	name: "vendor.qti.gnss@4.0-service",
 	owner: "realme",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml",
 	filename_from_src: true,
@@ -310,7 +268,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_android.hardware.drm@1.3-service.widevine.xml",
+	name: "manifest_android.hardware.drm@1.3-service.widevine",
 	owner: "realme",
 	src: "proprietary/odm/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml",
 	filename_from_src: true,
@@ -319,7 +277,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_oplusSensor.xml",
+	name: "manifest_oplusSensor",
 	owner: "realme",
 	src: "proprietary/odm/etc/vintf/manifest/manifest_oplusSensor.xml",
 	filename_from_src: true,
@@ -328,9 +286,9 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_oplus_fingerprint_aidl.xml",
+	name: "manifest_oplus_fingerprint",
 	owner: "realme",
-	src: "proprietary/odm/etc/vintf/manifest/manifest_oplus_fingerprint_aidl.xml",
+	src: "proprietary/odm/etc/vintf/manifest/manifest_oplus_fingerprint.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	device_specific: true,
