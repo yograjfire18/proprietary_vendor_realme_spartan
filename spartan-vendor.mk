@@ -372,6 +372,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/spartan/proprietary/odm/lib64/libml_util.so:$(TARGET_COPY_OUT_ODM)/lib64/libml_util.so \
     vendor/realme/spartan/proprietary/odm/lib64/libmotionblur.so:$(TARGET_COPY_OUT_ODM)/lib64/libmotionblur.so \
     vendor/realme/spartan/proprietary/odm/lib64/libmpbase.so:$(TARGET_COPY_OUT_ODM)/lib64/libmpbase.so \
+    vendor/realme/spartan/proprietary/odm/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_ODM)/lib64/liboemcrypto.so \
     vendor/realme/spartan/proprietary/odm/lib64/libop-ai-beauty-body-detection.so:$(TARGET_COPY_OUT_ODM)/lib64/libop-ai-beauty-body-detection.so \
     vendor/realme/spartan/proprietary/odm/lib64/libop-ai-beauty-faceretouch-cn.so:$(TARGET_COPY_OUT_ODM)/lib64/libop-ai-beauty-faceretouch-cn.so \
     vendor/realme/spartan/proprietary/odm/lib64/liboplus_service.so:$(TARGET_COPY_OUT_ODM)/lib64/liboplus_service.so \
